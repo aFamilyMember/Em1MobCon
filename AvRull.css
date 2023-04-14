@@ -1,0 +1,289 @@
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#DropList1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 0;
+   border-width: 0;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.ui-front
+{
+   z-index: 7777 !important;
+}
+#wb_DropList1 .ui-selectmenu-button span.ui-selectmenu-text
+{
+   line-height: 22px;
+   text-align: left;
+}
+#wb_DropList1 .ui-widget, #DropList1-menu > .ui-menu-item, #DropList1-menu > .ui-selectmenu-optgroup
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   font-style: normal;
+}
+#DropList1-button
+{
+   border-radius: 4px;
+   box-sizing: border-box;
+   outline: none;
+   padding: 12px 18px 12px 18px;
+   width: 100%;
+}
+#DropList1-menu > .ui-menu-item div
+{
+   padding: 12px 18px 12px 18px;
+   text-align: left;
+}
+#DropList1-menu > .ui-selectmenu-optgroup
+{
+   margin: 0;
+   padding: 10px 18px 10px 18px;
+}
+#DropList1-menu > .ui-selectmenu-optgroup
+{
+   font-weight: normal;
+}
+#DropList1-menu > .ui-li-has-icon.ui-menu-item div
+{
+   padding: 12px 18px 12px 36px;
+   min-height: 0px;
+}
+#DropList1-menu img
+{
+   border-width: 0;
+   position: absolute;
+   left: 18px;
+   top: 12px;
+   max-width: 0px;
+   max-height: 0px;
+}
+#DropList1-menu > .ui-state-focus
+{
+   font-weight: bold;
+}
+#wb_DropList1 .ui-selectmenu-icon.ui-icon
+{
+   background-image: none;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-top: 6px solid #000000;
+   height: 0;
+   margin-top: 8px;
+   width: 0;
+}
+.DropList1 .ui-widget-content
+{
+   border-color: #000000;
+   background-color: #8B0000;
+   background-image: none;
+   color: #000000;
+}
+.DropList1 > .ui-li-divider
+{
+   border-color: #DDDDDD;
+   background-color: #E9E9E9;
+   background-image: none;
+   color: #333333;
+}
+#DropList1-button
+{
+   border-color: #C5C5C5;
+   background-color: #800000;
+   background-image: none;
+   color: #000000;
+}
+#DropList1-button .ui-selectmenu-icon.ui-icon
+{
+   border-top-color: #000000;
+}
+#DropList1-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #800000;
+   background-image: none;
+   color: #000000;
+}
+#DropList1-button:hover .ui-selectmenu-icon.ui-icon
+{
+   border-top-color: #000000;
+}
+.DropList1 .ui-state-active
+{
+   border-color: #800000;
+   background-color: #FA8072;
+   background-image: none;
+   color: #FFFFFF;
+}
+#DropList1-menu p 
+{
+   margin: 0;
+   padding: 8px 0 0 0;
+   font-size: 19px;
+   font-weight: normal;
+}
+#wb_DropList1
+{
+   margin: 0;
+}
+#DropList1 .badge
+{
+   background-color: #007BFF;
+   border-radius: .25rem;
+   color: #FFFFFF;
+   display: inline-block;
+   float: right;
+   font-size: 75%;
+   font-weight: 700;
+   line-height: 1;
+   padding: .25em .4em;
+   text-align: center;
+   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+   vertical-align: baseline;
+   white-space: nowrap;
+}
+#wb_Carousel1
+{
+   background-color: #4F4F4F;
+   background-image: none;
+   border-radius: 0px;
+}
+#Carousel1 .frame
+{
+   width: 320px;
+   display: inline-block;
+   float: left;
+   height: 382px;
+}
+#wb_Carousel1 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel1 .pagination a
+{
+   display: inline-block;
+   margin: 12px 12px 12px 12px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: rgba(255,255,255,1.00);
+   border: 1px solid rgba(0,0,0,1.00);
+}
+#wb_Carousel1 .pagination a.active
+{
+   background-color: rgba(0,0,0,1.00);
+}
+#wb_Carousel1 .carousel-control-next, #wb_Carousel1 .carousel-control-prev
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   text-align: center;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#wb_Carousel1 .carousel-control-next-icon, #wb_Carousel1 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#wb_Carousel1 .carousel-control-next:hover, #wb_Carousel1 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#wb_Carousel1 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M117%2060%20L117%2069%20C117%2072%2c%20116%2074%2c%20115%2076%20C113%2077%2c%20111%2078%2c%20109%2078%20L58%2078%20L79%2099%20C81%20101%2c%2082%20103%2c%2082%20106%20C82%20108%2c%2081%20110%2c%2079%20112%20L74%20118%20C72%20119%2c%2070%20120%2c%2068%20120%20C65%20120%2c%2063%20119%2c%2061%20118%20L15%2071%20C13%2069%2c%2012%2067%2c%2012%2065%20C12%2062%2c%2013%2060%2c%2015%2058%20L61%2012%20C63%2010%2c%2065%209%2c%2068%209%20C70%209%2c%2072%2010%2c%2074%2012%20L79%2017%20C81%2019%2c%2082%2021%2c%2082%2023%20C82%2026%2c%2081%2028%2c%2079%2030%20L58%2051%20L109%2051%20C111%2051%2c%20113%2052%2c%20115%2054%20C116%2055%2c%20117%2057%2c%20117%2060%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_Carousel1 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M117%2065%20C117%2067%2c%20117%2069%2c%20115%2071%20L68%20118%20C66%20119%2c%2064%20120%2c%2062%20120%20C59%20120%2c%2057%20119%2c%2055%20118%20L50%20112%20C48%20110%2c%2047%20108%2c%2047%20106%20C47%20103%2c%2048%20101%2c%2050%2099%20L71%2078%20L21%2078%20C18%2078%2c%2016%2077%2c%2015%2076%20C13%2074%2c%2012%2072%2c%2012%2069%20L12%2060%20C12%2057%2c%2013%2055%2c%2015%2054%20C16%2052%2c%2018%2051%2c%2021%2051%20L71%2051%20L50%2030%20C48%2028%2c%2047%2026%2c%2047%2023%20C47%2021%2c%2048%2019%2c%2050%2017%20L55%2012%20C57%2010%2c%2059%209%2c%2062%209%20C64%209%2c%2067%2010%2c%2068%2012%20L115%2058%20C117%2060%2c%20117%2062%2c%20117%2065%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Carousel1_back
+{
+   position: absolute;
+   left: 4px;
+   top: 45%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel1_next
+{
+   position: absolute;
+   right: 4px;
+   top: 45%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel1_back a, #Carousel1_next a
+{
+   cursor: pointer;
+}
+#Carousel1 .frame-1
+{
+   background-color: transparent;
+   background-image: url('images/AvR.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+}
+#ClipArt1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#ClipArt2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#ClipArt3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#ClipArt4
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#ClipArt7
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#ClipArt6
+{
+   border-width: 0;
+   vertical-align: top;
+}

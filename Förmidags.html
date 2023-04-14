@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>EM1</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="Em1.css" rel="stylesheet">
+<link href="Förmidags.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.droplist.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#DropList1").droplist(
+   {
+      select: function(event, data)
+      {
+         var url = data.item.element.attr('value');
+         if (url && url.length != 0)
+         {
+            var target = data.item.element.attr('data-target');
+            if (target && target.length != 0)
+            {
+               window.open(url, target);
+            }
+            else
+            {
+               window.location.href=url;
+            }
+         }
+      },
+      classes: {'ui-selectmenu-menu':'DropList1'}
+   });
+});
+</script>
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb18.png" alt="WYSIWYG Web Builder" style="position:absolute;left:91px;top:622px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
+<div id="wb_DropList1" style="position:absolute;left:0px;top:0px;width:318px;height:46px;z-index:1;">
+<select id="DropList1">
+<option value="./Förmidags.html">Förmidags</option>
+<option value="./EfterMidags.html">Eftermidags</option>
+<option value="./Natt.html">Natt</option>
+<option value="./Varje-Vecka.html">Varje Vecka</option>
+<option value="./5-S.html">5 S</option>
+<option value="./EM1Start.html">EM1</option>
+</select></div>
+<div id="wb_ClipArt1" style="position:absolute;left:109px;top:48px;width:100px;height:100px;z-index:2;">
+<a href="./Varje-Vecka.html"><img src="images/img0009.png" id="ClipArt1" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt2" style="position:absolute;left:6px;top:160px;width:100px;height:100px;z-index:3;">
+<a href="./Förmidags.html"><img src="images/img0010.png" id="ClipArt2" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt3" style="position:absolute;left:106px;top:160px;width:100px;height:100px;z-index:4;">
+<a href="./EfterMidags.html"><img src="images/img0011.png" id="ClipArt3" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt4" style="position:absolute;left:206px;top:160px;width:100px;height:100px;z-index:5;">
+<a href="./Natt.html"><img src="images/img0012.png" id="ClipArt4" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_Checkbox1" style="position:absolute;left:7px;top:272px;width:308px;height:54px;z-index:6;">
+<input type="checkbox" id="Checkbox1" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox1"></label></div>
+<div id="wb_Checkbox2" style="position:absolute;left:7px;top:334px;width:308px;height:54px;z-index:7;">
+<input type="checkbox" id="Checkbox2" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox2"></label></div>
+<div id="wb_Checkbox3" style="position:absolute;left:7px;top:398px;width:308px;height:54px;z-index:8;">
+<input type="checkbox" id="Checkbox3" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox3"></label></div>
+<div id="wb_Checkbox4" style="position:absolute;left:7px;top:461px;width:308px;height:54px;z-index:9;">
+<input type="checkbox" id="Checkbox4" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox4"></label></div>
+<div id="wb_Checkbox5" style="position:absolute;left:7px;top:524px;width:308px;height:54px;z-index:10;">
+<input type="checkbox" id="Checkbox5" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox5"></label></div>
+<div id="wb_Text1" style="position:absolute;left:66px;top:275px;width:208px;height:48px;z-index:11;">
+<p>Golv blabla och resten ...</p></div>
+<div id="wb_ClipArt5" style="position:absolute;left:220px;top:53px;width:100px;height:95px;z-index:12;">
+<a href="./Vart-.html"><img src="images/img0038.png" id="ClipArt5" alt="" width="100" height="95" style="width:100px;height:95px;"></a></div>
+<div id="wb_ClipArt7" style="position:absolute;left:135px;top:5px;width:53px;height:39px;z-index:13;">
+<a href="./EM1Start.html"><img src="images/img0051.png" id="ClipArt7" alt="" width="53" height="39" style="width:53px;height:39px;"></a></div>
+</body>
+</html>

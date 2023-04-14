@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>EM1</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="Em1.css" rel="stylesheet">
+<link href="Identifira-Rullar.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.droplist.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#DropList1").droplist(
+   {
+      select: function(event, data)
+      {
+         var url = data.item.element.attr('value');
+         if (url && url.length != 0)
+         {
+            var target = data.item.element.attr('data-target');
+            if (target && target.length != 0)
+            {
+               window.open(url, target);
+            }
+            else
+            {
+               window.location.href=url;
+            }
+         }
+      },
+      classes: {'ui-selectmenu-menu':'DropList1'}
+   });
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 0,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      pagination: true,
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+});
+</script>
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb18.png" alt="WYSIWYG Web Builder" style="position:absolute;left:103px;top:765px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
+<div id="wb_DropList1" style="position:absolute;left:0px;top:0px;width:318px;height:46px;z-index:1;">
+<select id="DropList1">
+<option value="./Identifira-Rullar.html">Identifira Rullar</option>
+<option value="./Beställa-Rullar.html">Beställa Rullar</option>
+<option value="./TIPS.html">TIPS</option>
+<option value="./AvRull.html">Avrullning</option>
+<option value="./EM1Start.html">EM1</option>
+</select></div>
+<div id="wb_Carousel1" style="position:absolute;left:0px;top:337px;width:320px;height:382px;z-index:2;overflow:hidden;">
+<div id="Carousel1" style="position:absolute;">
+<div class="frame">
+</div>
+</div>
+<div id="Carousel1_back"><a class="carousel-control-prev" role="button"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a></div>
+<div id="Carousel1_next"><a class="carousel-control-next" role="button"><span class="carousel-control-next-icon" aria-hidden="true"></span></a></div>
+</div>
+<input type="text" id="Editbox1" style="position:absolute;left:0px;top:48px;width:310px;height:279px;z-index:3;" name="Editbox1" value="" spellcheck="false">
+<div id="wb_ClipArt7" style="position:absolute;left:135px;top:5px;width:53px;height:39px;z-index:4;">
+<a href="./EM1Start.html"><img src="images/img0057.png" id="ClipArt7" alt="" width="53" height="39" style="width:53px;height:39px;"></a></div>
+<div id="wb_ClipArt1" style="position:absolute;left:6px;top:56px;width:100px;height:100px;z-index:5;">
+<a href="./Drake.html"><img src="images/img0096.png" id="ClipArt1" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt2" style="position:absolute;left:106px;top:56px;width:100px;height:100px;z-index:6;">
+<img src="images/img0097.png" id="ClipArt2" alt="" width="100" height="100" style="width:100px;height:100px;"></div>
+<div id="wb_ClipArt3" style="position:absolute;left:217px;top:60px;width:100px;height:96px;z-index:7;">
+<a href="./Städ.html"><img src="images/img0098.png" id="ClipArt3" alt="" width="100" height="96" style="width:100px;height:96px;"></a></div>
+<div id="wb_ClipArt4" style="position:absolute;left:6px;top:177px;width:101px;height:100px;z-index:8;">
+<a href="./Beställa-Rullar.html"><img src="images/img0099.png" id="ClipArt4" alt="" width="101" height="100" style="width:101px;height:100px;"></a></div>
+<div id="wb_ClipArt6" style="position:absolute;left:217px;top:177px;width:100px;height:100px;z-index:9;">
+<img src="images/img0100.png" id="ClipArt6" alt="" width="100" height="100" style="width:100px;height:100px;"></div>
+</body>
+</html>

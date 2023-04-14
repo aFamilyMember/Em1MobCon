@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>EM1</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="Em1.css" rel="stylesheet">
+<link href="Städ.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.droplist.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#DropList1").droplist(
+   {
+      select: function(event, data)
+      {
+         var url = data.item.element.attr('value');
+         if (url && url.length != 0)
+         {
+            var target = data.item.element.attr('data-target');
+            if (target && target.length != 0)
+            {
+               window.open(url, target);
+            }
+            else
+            {
+               window.location.href=url;
+            }
+         }
+      },
+      classes: {'ui-selectmenu-menu':'DropList1'}
+   });
+});
+</script>
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb18.png" alt="WYSIWYG Web Builder" style="position:absolute;left:85px;top:589px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
+<div id="wb_DropList1" style="position:absolute;left:0px;top:0px;width:318px;height:46px;z-index:1;">
+<select id="DropList1">
+<option value="./Städ.html">Städ</option>
+<option value="./Stop.html">Stop</option>
+<option value="./Rutiner.html">Rutiner</option>
+<option value="./AvRull.html">AvRull</option>
+<option value="./EM1Start.html">EM1</option>
+</select></div>
+<div id="wb_Checkbox1" style="position:absolute;left:6px;top:263px;width:308px;height:54px;z-index:2;">
+<input type="checkbox" id="Checkbox1" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox1"></label></div>
+<div id="wb_Checkbox2" style="position:absolute;left:6px;top:325px;width:308px;height:54px;z-index:3;">
+<input type="checkbox" id="Checkbox2" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox2"></label></div>
+<div id="wb_Checkbox3" style="position:absolute;left:6px;top:389px;width:308px;height:54px;z-index:4;">
+<input type="checkbox" id="Checkbox3" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox3"></label></div>
+<div id="wb_Checkbox4" style="position:absolute;left:6px;top:452px;width:308px;height:54px;z-index:5;">
+<input type="checkbox" id="Checkbox4" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox4"></label></div>
+<div id="wb_Checkbox5" style="position:absolute;left:6px;top:515px;width:308px;height:54px;z-index:6;">
+<input type="checkbox" id="Checkbox5" name="TESTBOX" value="on" style="position:absolute;left:0;top:0;"><label for="Checkbox5"></label></div>
+<div id="wb_ClipArt7" style="position:absolute;left:135px;top:5px;width:53px;height:39px;z-index:7;">
+<a href="./EM1Start.html"><img src="images/img0046.png" id="ClipArt7" alt="" width="53" height="39" style="width:53px;height:39px;"></a></div>
+<div id="wb_ClipArt1" style="position:absolute;left:112px;top:48px;width:92px;height:100px;z-index:8;">
+<a href="./Stop.html"><img src="images/img0073.png" id="ClipArt1" alt="" width="92" height="100" style="width:92px;height:100px;"></a></div>
+<div id="wb_ClipArt2" style="position:absolute;left:11px;top:48px;width:95px;height:100px;z-index:9;">
+<a href="./Lås.html"><img src="images/img0074.png" id="ClipArt2" alt="" width="95" height="100" style="width:95px;height:100px;"></a></div>
+<div id="wb_ClipArt3" style="position:absolute;left:209px;top:48px;width:100px;height:100px;opacity:10.00;z-index:10;">
+<a href="./Säkerhet.html"><img src="images/img0075.png" id="ClipArt3" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt4" style="position:absolute;left:8px;top:157px;width:100px;height:96px;z-index:11;">
+<a href="./Städ.html"><img src="images/img0106.png" id="ClipArt4" alt="" width="100" height="96" style="width:100px;height:96px;"></a></div>
+</body>
+</html>

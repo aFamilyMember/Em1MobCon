@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>EM1</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="Em1.css" rel="stylesheet">
+<link href="EM1Start.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.droplist.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#DropList1").droplist(
+   {
+      select: function(event, data)
+      {
+         var url = data.item.element.attr('value');
+         if (url && url.length != 0)
+         {
+            var target = data.item.element.attr('data-target');
+            if (target && target.length != 0)
+            {
+               window.open(url, target);
+            }
+            else
+            {
+               window.location.href=url;
+            }
+         }
+      },
+      classes: {'ui-selectmenu-menu':'DropList1'}
+   });
+});
+</script>
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb18.png" alt="WYSIWYG Web Builder" style="position:absolute;left:96px;top:440px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
+<div id="wb_DropList1" style="position:absolute;left:0px;top:0px;width:318px;height:46px;z-index:1;">
+<select id="DropList1">
+<option value="./EM1Start.html">EM1</option>
+<option value="./Säkerhet.html">Säkerhet</option>
+<option value="./5-S.html">5 S</option>
+<option value="./AvRull.html">AvRull</option>
+<option value="Maskin Parametrar">Maskin Parametrar</option>
+</select></div>
+<div id="wb_ClipArt1" style="position:absolute;left:211px;top:48px;width:100px;height:100px;opacity:10.00;z-index:2;">
+<a href="./Säkerhet.html"><img src="images/img0013.png" id="ClipArt1" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt2" style="position:absolute;left:10px;top:54px;width:86px;height:89px;z-index:3;">
+<a href="./5-S.html"><img src="images/img0022.png" id="ClipArt2" alt="" width="86" height="89" style="width:86px;height:89px;"></a></div>
+<div id="wb_ClipArt3" style="position:absolute;left:111px;top:48px;width:100px;height:100px;z-index:4;">
+<a href="./Rutiner.html"><img src="images/img0023.png" id="ClipArt3" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt4" style="position:absolute;left:211px;top:159px;width:100px;height:100px;z-index:5;">
+<a href="./AvRull.html"><img src="images/img0024.png" id="ClipArt4" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+<div id="wb_ClipArt5" style="position:absolute;left:10px;top:159px;width:100px;height:100px;z-index:6;">
+<img src="images/img0025.png" id="ClipArt5" alt="" width="100" height="100" style="width:100px;height:100px;"></div>
+<div id="wb_ClipArt6" style="position:absolute;left:110px;top:159px;width:100px;height:100px;z-index:7;">
+<img src="images/img0026.png" id="ClipArt6" alt="" width="100" height="100" style="width:100px;height:100px;"></div>
+<div id="wb_ClipArt7" style="position:absolute;left:135px;top:5px;width:53px;height:39px;z-index:8;">
+<a href="./EM1Start.html"><img src="images/img0041.png" id="ClipArt7" alt="" width="53" height="39" style="width:53px;height:39px;"></a></div>
+<div id="wb_ClipArt8" style="position:absolute;left:211px;top:269px;width:100px;height:100px;z-index:9;">
+<img src="images/img0060.png" id="ClipArt8" alt="" width="100" height="100" style="width:100px;height:100px;"></div>
+<div id="wb_ClipArt9" style="position:absolute;left:10px;top:269px;width:100px;height:100px;z-index:10;">
+<a href="./Truck.html"><img src="images/img0087.png" id="ClipArt9" alt="" width="100" height="100" style="width:100px;height:100px;"></a></div>
+</body>
+</html>

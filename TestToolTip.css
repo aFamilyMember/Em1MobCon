@@ -1,0 +1,32 @@
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ToolTip1.ui-widget.ui-widget-content
+{
+   background-color: #696969;
+   background-image: none;
+   border: 1px solid #800000;
+   border-radius: 0px;
+   color: #333333;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   padding: 4px 4px 4px 4px;
+   box-shadow: none;
+   max-width: 250px;
+   text-align: left;
+}
+#ClipArt7
+{
+   border-width: 0;
+   vertical-align: top;
+}
